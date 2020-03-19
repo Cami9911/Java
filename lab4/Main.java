@@ -82,7 +82,7 @@ public class Main {
         map.put(iter.next(),Stream.of(residents.get(0),residents.get(1),residents.get(3)).collect(Collectors.toList()));
 
         return map;
-        // functia creeaza un map LinkedHashMap si adauga elementele in el
+        // functia creeaza un map HashMap si adauga elementele in el
     }
 
 }
