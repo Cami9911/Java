@@ -9,7 +9,7 @@ Am construit clasele:
   
  - DrawingPanel
   - functia createOffscreenImage()
-    - se face design-ul backgound-ului
+    - se face design-ul background-ului
   - functia init()
     - se apeleaza functionaliatile mouse-ului
   - functia drawShape()
