@@ -19,11 +19,9 @@ public class ViewCommand extends Command {
         Document doc = name.findById((String) args[0]);
         try {
             CatalogUtil.view(doc);
-            System.out.println("si in view mere treaba");
             return name;
         } catch (IOException e) {
             e.printStackTrace();
-            System.out.println("am belit o si cu view-ul");
             return null;
         }
     }
