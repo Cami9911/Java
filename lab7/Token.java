@@ -1,7 +1,7 @@
 package com.company;
 
 public class Token {
-    int number;
+    private int number;
 
     public int getNumber() {
         return number;
